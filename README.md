@@ -112,7 +112,7 @@ I have firstly cleaned the data so that the column headings contain no capitals 
 
 For the transformation, we must log-transform both V and L such that **$`log(V) = {\alpha}log(L)+\beta`$**
 
-This will then enable us to apply a linear model, using the code below
+This will then enable us to apply a linear model, as demonstrated in the code below:
 
 ```
 viral_clean <- viral_clean %>%
