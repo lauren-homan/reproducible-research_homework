@@ -129,6 +129,13 @@ summary(linear_model)
 
 ```{r}
 
+ggplot(viral_clean, aes(x = log_genome_length, y = log_virion_volume))+
+  geom_point() +
+  geom_smooth(method='lm', se = TRUE) +
+  theme_bw() +
+  labs( x = 'log[Genome length (kb)]',
+        y = 'log[Virion volume (nm3)]')
+
 ```
 
 ## Instructions
