@@ -110,7 +110,9 @@ names(viral_clean)
 
 I have firstly cleaned the data so that the column headings contain no capitals and are in snake case  
 
-For the transformation, we must log-transform both V and L such that log(V) = alpha log(L)+beta
+For the transformation, we must log-transform both V and L such that **$`log(V) = {\alpha}log(L)+\beta`$**
+
+This will then enable us to apply a linear model, using the code below
 
 ```
 viral_clean <- viral_clean %>%
