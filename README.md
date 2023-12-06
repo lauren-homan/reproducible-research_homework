@@ -79,7 +79,7 @@ Another reason the random seed is useful is because it ensures reproducibility o
 (information was sourced from r-coder.com)
 
 
-# Comparison of the random_walk code with the new brownian_motion_code
+## Comparison of the random_walk code with the new brownian_motion_code
 
 <img width="1387" alt="Random walk vs brownian motion" src="https://github.com/lauren-homan/reproducible-research_homework/assets/150149060/e12c3d43-d34d-450f-a050-417b7790e67b">
 
