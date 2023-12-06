@@ -130,10 +130,16 @@ summary(linear_model)
 <img width="455" alt="Screenshot 2023-12-06 at 18 04 59" src="https://github.com/lauren-homan/reproducible-research_homework/assets/150149060/9ee6cd5c-a4d2-42f4-b4ef-1da27e84e132">
 
 As shown in the screenshot:
+
 **$`{\alpha}`$** = 7.0748 
+
 p-value = 2.28e-10
+
 **$`\beta`$** = 1.5152
+
 p-value = 6.44e-10
+
+
 
 
 
