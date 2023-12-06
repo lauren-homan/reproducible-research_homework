@@ -125,6 +125,11 @@ viral_clean <- viral_clean %>%
 linear_model<- lm (log_virion_volume ~ log_genome_length, data = viral_clean)
 summary(linear_model)
 ```
+## 5d. The code to make the plot is as shown below
+
+```{r}
+
+```
 
 ## Instructions
 
