@@ -131,20 +131,25 @@ summary(linear_model)
 
 As shown in the screenshot:
 
-**$`{\alpha}`$** = 7.0748 
+**$`{\alpha}`$** = 1.515
 
 p-value = 2.28e-10
 
-**$`\beta`$** = 1.5152
+**$`\beta`$** = e^7.0748 = 1181.81
 
 p-value = 6.44e-10
 
 
-In the paper
+Due to very small p-values, we can conclude that the values for the exponent and scaling factor within our model and obtained from our data are significant.
 
-Exponent = 1.43
+#### In the paper:
 
-Scaling factor = 2057
+Exponent (**$`{\alpha}`$**) = 1.43
+
+Scaling factor (**$`\beta`$**) = 2057
+
+
+The values for the exponent, alpha, are quite closely aligned, however the scaling factor found in the paper is much larger than that of our data. Perhaps this is due to differences in sample sizes, which would alter the values derived from the model.
 
 
 ## 5d. The code to make the plot is as shown below
