@@ -140,7 +140,11 @@ p-value = 2.28e-10
 p-value = 6.44e-10
 
 
+In the paper
 
+Exponent = 1.43
+
+Scaling factor = 2057
 
 
 ## 5d. The code to make the plot is as shown below
