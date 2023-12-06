@@ -90,7 +90,7 @@ There are 13 columns and 33 rows.
 
 ## 5b. What transformation can you use to fit a linear model to the data?
 
-
+ **$`V = \beta L^{\alpha}`$**
 
 
 ## Instructions
