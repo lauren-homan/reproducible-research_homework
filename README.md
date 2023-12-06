@@ -91,7 +91,38 @@ There are 13 columns and 33 rows.
 ## 5b. What transformation can you use to fit a linear model to the data?
 
  **$`V = \beta L^{\alpha}`$**
+```{r}
+install.packages("janitor")
+install.packages('dplyr')
+#I am installing these packages - janitor will be necessary in order to clean the code, and dplyr will help organise the code
 
+library(janitor)
+library(dplyr)
+
+
+viral_data<- read.csv("question-5-data/Cui_etal2014.csv")
+
+
+viral_clean <- viral_data %>%
+  clean_names()
+names(viral_clean)
+```
+
+I have firstly cleaned the data so that the column headings contain no capitals and are in snake case  
+
+For the transformation, we must log-transform both V and L such that log(V) = alpha log(L)+beta
+
+```
+viral_clean <- viral_clean %>%
+  mutate(log_virion_volume = log(virion_volume_nm_nm_nm))
+
+viral_clean <- viral_clean %>% 
+  mutate(log_genome_length = log(genome_length_kb))
+
+
+linear_model<- lm (log_virion_volume ~ log_genome_length, data = viral_clean)
+summary(linear_model)
+```
 
 ## Instructions
 
