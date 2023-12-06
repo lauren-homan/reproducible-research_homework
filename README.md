@@ -1,6 +1,6 @@
 # Reproducible research: version control and R
 
-# 4. Simulating a random walk
+## 4. Simulating a random walk
 ```{r}
 #install.packages("ggplot2")
 #install.packages("gridExtra")
@@ -69,7 +69,7 @@ Here, we are creating 2 different 'random walk' plots using the ggplot2 package,
 Time is measured here in number of steps, and demonstrated by use of a colour key - the darker the shade of blue the more time has elapsed (and thus the more steps taken).
 
 
-# 4b. Random seeds
+## 4b. Random seeds
 
 A random seed is a method used in R for generating a pseudorandom number. The number is an integer vector generated with an algorithm, but requires a 'seed' to initialise. Hence, the number produced is pseudorandom because if you know both the seed and the generator, you can predict and reproduce the outcome.
 
@@ -84,11 +84,11 @@ Another reason the random seed is useful is because it ensures reproducibility o
 <img width="1387" alt="Random walk vs brownian motion" src="https://github.com/lauren-homan/reproducible-research_homework/assets/150149060/e12c3d43-d34d-450f-a050-417b7790e67b">
 
 
-# 5. How many rows and columns does the dsDNA dataset contain?
+## 5. How many rows and columns does the dsDNA dataset contain?
 
 There are 13 columns and 33 rows.
 
-# 5b. What transformation can you use to fit a linear model to the data?
+## 5b. What transformation can you use to fit a linear model to the data?
 
 
 
