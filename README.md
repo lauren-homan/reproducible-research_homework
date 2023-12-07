@@ -1,5 +1,7 @@
 # Reproducible research: version control and R
 
+## For questions 1, 2 and 3: 
+
 ## 4. Simulating a random walk
 ```{r}
 #install.packages("ggplot2")
