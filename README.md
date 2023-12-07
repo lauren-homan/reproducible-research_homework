@@ -166,7 +166,13 @@ ggplot(viral_clean, aes(x = log_genome_length, y = log_virion_volume))+
 ```
 ## 5e. Estimated volume of dsDNA virus
 
+**$`V = \beta L^{\alpha}`$**
 
+When:
+
+L = 300kb
+
+V = 
 
 ## Bonus question
 
