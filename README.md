@@ -178,7 +178,17 @@ V = 6698076
 
 ## Bonus question
 
+Reproducability and replicability are similar terms used in science, but with slightly different meanings in reference to the scientific method. Reproducability is defined as the ability to obtain the same results when the same experiment is performed by different scientists. Replicability, on the other hand, is when a similar (but not identical) experiment is replicated under different conditions, using different data or slightly modifying the methods.
 
+Therefore, while both processes hinge upon reliability of scientific method, replicability utilises the same methodology with different conditions whereas reproducibility entirely repeats an investigation.
+
+
+The Git and GitHub platforms were designed to enable sharing, collaboration and integration of data. They enable collaborators to build upon previous work remotely, or indeed, to use other people's work for their own analyses. Collaboration is a central premise within science therefore that these platforms have made the process easier is a huge benefit to scientific progression.
+
+These platforms enable reproducibility and replicability by providing a comprehensive step-by-step guide for other researchers to work on, meaning projects can be managed from different parts of the world if necessary, without losing any significant progress. The ability to observe any edits or changes made to the code is also highly useful, as it is clear what has been changed and why.
+
+
+With that being said, GitHub is a difficult platform to navigate when using it for the first time. Some of the steps required when editing a repository are not very clear, meaning the user may potentially end up learning how to use the platform but without really understanding what it is they're doing. This is of no benefit, considering its entire purpose is to enable collaboration and data sharing. It is a hugely useful platform, but in order to become used on a large scale it may benefit from detailed tutorials and instructions.
 
 ## Instructions
 
