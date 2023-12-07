@@ -172,7 +172,9 @@ When:
 
 L = 300kb
 
-V = 
+
+V = 6698076
+
 
 ## Bonus question
 
