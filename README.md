@@ -1,6 +1,7 @@
 # Reproducible research: version control and R
 
 ## For questions 1, 2 and 3: 
+https://github.com/user048590/logistic_growth.git
 
 ## 4. Simulating a random walk
 ```{r}
