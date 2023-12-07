@@ -149,7 +149,7 @@ Exponent (**$`{\alpha}`$**) = 1.43
 Scaling factor (**$`\beta`$**) = 2057
 
 
-The values for the exponent, alpha, are quite closely aligned, however the scaling factor found in the paper is much larger than that of our data. Perhaps this is due to differences in sample sizes, which would alter the values derived from the model.
+The values for the exponent, alpha, are quite closely aligned, however the scaling factor found in the paper is much larger than that of our data. The paper includes confidence intervals for the scaling factor (1185-3571), meaning our value for beta is significantly different to the paper's. Perhaps this is due to differences in sample sizes, which would alter the values derived from the model.
 
 
 ## 5d. The code to make the plot is as shown below
