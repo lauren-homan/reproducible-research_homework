@@ -65,7 +65,7 @@ plot2 <- ggplot(aes(x = x, y = y), data = data2) +
 grid.arrange(plot1, plot2, ncol=2)
 ```
 
-Here, we are creating 2 different 'random walk' plots using the ggplot2 package, each with 500 steps, and placing them next to one another for comparison. Due to the random generation of step angle and direction for each step, the graphs are completely different. Similarly, when the code is re-run, the graphs will be different, because of the fact that the direction taken with respect to time is generated at random (using the previous step). 
+Here, we are creating 2 different 'random walk' plots using the ggplot2 package, each with 500 steps, and putting them next to one another for comparison. The for-loop used enables an adjustment to the angle and step size with every step taken. Since this is generated randomly, the graphs are completely different and are predicted to change every time the code is re-run. This is because of the fact that the direction taken with respect to time is generated at random (from the coordinates of the previous step). 
 Time is measured here in number of steps, and demonstrated by use of a colour key - the darker the shade of blue the more time has elapsed (and thus the more steps taken).
 
 
